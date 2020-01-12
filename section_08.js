@@ -86,7 +86,7 @@ const spliced = numbers.splice(index3, 2); // 해당 인덱스부터 n개의 원
 console.log(spliced);
 console.log(numbers);  // 원본 배열이 변한다
 
-const sliced = numbers.slice(0, 2);  // 해당 인덱스부터 n개의 원소 꺼내기
+const sliced = numbers.slice(0, 2);  // 해당 인덱스부터 n번 인덱스 전까지 반환하기
 console.log(sliced);
 console.log(numbers); // 원본 배열은 변하지 않는다
 
@@ -112,7 +112,7 @@ const concated = arr1.concat(arr2);  // 두 배열을 합치기
 console.log(concated);
 
 // join
-// separator 을 기준으로 문자열로 분리
+// separator 을 기준으로 문자열로 변환
 const arr3 = [1, 2, 3, 4, 5];
 console.log(arr3.join());
 console.log(arr3.join(" "));
